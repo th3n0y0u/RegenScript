@@ -1,4 +1,4 @@
-local jeep = game.Workspace.Jeep:FindFirstChild("Jeep")
+local jeep = game.ReplicatedStorage:FindFirstChild("Jeep1")
 local debounce = false
 
 script.Parent.MouseButton1Down:Connect(function(click)
